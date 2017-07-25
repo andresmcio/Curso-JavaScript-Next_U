@@ -1,0 +1,221 @@
+﻿body{
+    background-color: lightgrey;
+    font-family: 'Raleway' , sans-serif !important;
+}
+
+section, article{
+    display: inline-block;
+    margin: 0px 10% 10% 10%;
+    position: relative;
+    width: 80%;
+}
+
+fieldset{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10%;
+}
+
+legend, h2{
+    font-size: 1.09em;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 2px 3px 0px #BAABCA;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+form div{
+    margin: 4%;
+    padding: 2%;
+}
+
+label{
+    font-weight: bold;
+}
+
+form input{
+    border-radius: 5px;
+    margin: 4px 0px 4px 0px;
+}
+
+input[type=button]{
+    background-color: #AAA;
+    border-radius: 10px;
+    box-shadow: 0px 5px dimgrey;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    left: 8%;
+    padding: 3px 5px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+input[type=button]:hover{
+    background-color: #999;
+}
+
+input[type=button]:active{
+    background-color: #999;
+    box-shadow: 0px 2px darkgrey;
+    transform: translateY(3px);
+}
+
+aside{
+    position: absolute;
+    right: 0px;
+    top: 7%;
+    width: 20%;
+    z-index: 100;
+}
+
+aside, nav, ul{
+    height: 100%;
+}
+
+ul{
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+li div{
+    border-radius: 100%;
+    box-shadow: 0px 7px dimgrey;
+    font-size: 0.7em;
+    font-weight: bolder;
+    height: 55px;
+    margin: 7%;
+    padding: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 55px;
+}
+
+img {
+    display: inline-block;
+    height: 25px;
+    margin: 1px;
+}
+
+div#avgGrade{
+    background-color: dodgerblue;
+}
+
+div#avgGrade:hover{
+    background-color: #023BA1;
+}
+
+div#avgGrade:active{
+    background-color: #023BA1;
+    box-shadow: 0px 2px darkgrey;
+    transform: translateY(5px);
+}
+
+div#hghGrade{
+    background-color: limegreen;
+}
+
+div#hghGrade:hover{
+    background-color: #03710C;
+}
+
+div#hghGrade:active{
+    background-color: #03710C;
+    box-shadow: 0px 2px darkgrey;
+    transform: translateY(5px);
+}
+
+div#wstGrade{
+    background-color: red;
+}
+
+div#wstGrade:hover{
+    background-color: firebrick;
+}
+
+div#wstGrade:active{
+    background-color: firebrick;
+    box-shadow: 0px 2px darkgrey;
+    transform: translateY(5px);
+}
+
+article{
+    background-color: white;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+table{
+    text-align: center;
+} 
+
+th, td{
+    border-radius: 5px;
+    max-width: 30%;
+}
+
+th{
+    background-color: #383131;
+    color: white;
+    margin: 1px;
+    padding: 1px;
+    text-transform: uppercase;
+}
+
+td{
+    border: 1px solid black;
+}
+
+@media all and (min-width: 500px){
+
+input[type=button]{
+    left: 20%;
+}
+
+table{
+    margin: 0px 20%;
+}
+}
+
+@media all and (min-width: 700px){
+
+input[type=button]{
+    left: 30%;
+}
+
+table{
+    margin: 0px 30%;
+}
+}
+
+@media all and (min-width: 1100px)  {
+section, article{
+    margin: 0px 2.5% 2.5% 2.5%;
+    width: 95%;
+}
+
+legend, h2{
+    font-size: 1.5em;
+}
+
+li div{
+    border-radius: 10px;
+    left: 30%;
+    position: relative;
+    width: 70px;
+}
+
+img{
+    display: block;
+    height: 30px;
+    left: 25%;
+    margin-bottom: 3px;
+    position: relative;
+}
+}
